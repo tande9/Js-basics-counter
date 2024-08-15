@@ -1,3 +1,4 @@
+![screenshot-desktop](https://github.com/user-attachments/assets/99a7b0b0-7f5a-43be-aa06-4f22129a1f1e)
 # Js-basics-counter
 
 Progetto realizzato per il corso Full Stack development di Start2impact.
@@ -20,13 +21,13 @@ Per rendere la pagina responsive, ho utilizzato tecniche come clamp per il font,
 
 Durante la creazione di questo progetto non sono mancate le difficoltà, che però ho superato grazie al materiale di studio fornito da s2i, grazie alla community, e grazie al mindset trasmesso da essa. 
 
-###Screenshot dell'applicazione
+### Screenshot dell'applicazione
 
-#####Visualizzazione desktop 
-[Desktop](/assets/img/screenshot-desktop.jpg)
+##### Visualizzazione desktop 
+![Desktop](/assets/img/screenshot-desktop.jpg)
 
-#####Visualizzazione tablet 
-[Desktop](/assets/img/screenshot-tablet.jpg)
+##### Visualizzazione tablet 
+![Desktop](/assets/img/screenshot-tablet.jpg)
 
-#####Visualizzazione phone 
-[Desktop](/assets/img/screenshot-phone.jpg)
+##### Visualizzazione phone 
+![Desktop](/assets/img/screenshot-phone.jpg)
