@@ -1,4 +1,3 @@
-![screenshot-desktop](https://github.com/user-attachments/assets/99a7b0b0-7f5a-43be-aa06-4f22129a1f1e)
 # Js-basics-counter
 
 Progetto realizzato per il corso Full Stack development di Start2impact.
@@ -24,10 +23,10 @@ Durante la creazione di questo progetto non sono mancate le difficoltà, che per
 ### Screenshot dell'applicazione
 
 ##### Visualizzazione desktop 
-![Desktop](/assets/img/screenshot-desktop.jpg)
+![Desktop](/assets/img/screenshot-desktop.png)
 
 ##### Visualizzazione tablet 
-![Desktop](/assets/img/screenshot-tablet.jpg)
+![Desktop](/assets/img/screenshot-tablet.png)
 
 ##### Visualizzazione phone 
-![Desktop](/assets/img/screenshot-phone.jpg)
+![Desktop](/assets/img/screenshot-phone.png)
