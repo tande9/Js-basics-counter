@@ -1,0 +1,134 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Kanit, sans-serif;
+}
+
+.bg{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 3px solid black;
+  border-radius: 15px;
+  height: 70vh;
+  width: 60vw;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+.counter-header{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.counter-header h1{
+  font-weight: 800;
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+.counter-header h3{
+  font-size: clamp(1.1rem, 2.5vw, 2rem);
+  transition: all 0.15 ease-in-out;
+}
+
+.challenge-wrong{
+  color: #E00222;
+}
+
+.challenge-right{
+  color: #23E107;
+}
+
+.counter-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.btn{
+  padding: 15px 45px;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 24px;
+  transition: all 0.25s ease-in-out;
+  background-color: transparent;
+}
+
+.btn-minus:hover{
+  border: 2px solid #E00222;
+  background-color: #E00222;
+}
+
+.btn-plus:hover{
+  border: 2px solid #23E107;
+  background-color: #23E107;
+}
+
+.counter-value{
+  font-size: clamp(1.1rem, 4vw, 3rem);
+  border: 2px solid black;
+  height: 20vh;
+  width: 20vw;
+  border-radius: 10px;
+  cursor: pointer ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+.counter-value:hover{
+  border: 2px solid #E00222;
+}
+
+footer{
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  height: 50px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
+  font-weight: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px){
+
+  .main-container{
+    height: 80vh;
+    width: 90vw;
+  }
+
+  .counter-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+    height: 60%;
+  }
+
+  .counter-value{
+    width: 40vw;
+  }
+
+}
