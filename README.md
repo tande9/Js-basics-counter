@@ -28,7 +28,7 @@ Durante la creazione di questo progetto non sono mancate le difficoltà, che per
 ##### Visualizzazione tablet 
 ![Desktop](/assets/img/screenshot-tablet.png)
 
-##### Visualizzazione phone 
-![Desktop](/assets/img/screenshot-phone.png)
+##### Visualizzazione mobile
+![Desktop](/assets/img/screenshot-mobile.png)
 
 [Provalo cliccando qui](https://javascript-counter-gianluigi-fadda.netlify.app)
