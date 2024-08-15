@@ -25,10 +25,13 @@ challengeContainer.appendChild(dynamicChallenge);
 // audio buttons
 
 const plusSound = new Audio();
-plusSound.src = "../assets/audio/button-124476.mp3";
+plusSound.src = "../assets/audio/plusbtn.mp3";
 
 const minusSound = new Audio();
-minusSound.src = "../assets/audio/menu-button-88360.mp3";
+minusSound.src = "../assets/audio/minusbtn.mp3";
+
+const resetSound = new Audio();
+resetSound.src = "../assets/audio/reset-btn.mp3";
 
 // funzione del counter
 
@@ -61,6 +64,9 @@ valueDisplayed.addEventListener('click', ()=>{
   let currentValue = parseInt(valueDisplayed.textContent);
   currentValue = 0;
   valueDisplayed.textContent = currentValue;
+
+  resetSound.currentTime = 0;
+  resetSound.play();
 })
 
 //altre funzionalità
@@ -98,5 +104,10 @@ function updateChallenge(){
   }
 
   }
+
+  //no zoom su mobile
+  document.addEventListener('dblclick', function(e) {
+    e.preventDefault();
+}, { passive: false });
 
 

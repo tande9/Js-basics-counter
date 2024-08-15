@@ -35,12 +35,13 @@
 
 .counter-header h1{
   font-weight: 800;
-  font-size: clamp(2rem, 4vw, 3rem);
+  font-size: clamp(2rem, 2.5vw, 3rem);
 }
 
 .counter-header h3{
-  font-size: clamp(1.1rem, 2.5vw, 2rem);
+  font-size: clamp(1.1rem, 2vw, 2rem);
   transition: all 0.15 ease-in-out;
+  text-align: center;
 }
 
 .challenge-wrong{
@@ -116,19 +117,19 @@ footer{
 
   .main-container{
     height: 80vh;
-    width: 90vw;
+    width: 95vw;
   }
 
   .counter-container{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    flex-direction: column-reverse;
     height: 60%;
   }
 
   .counter-value{
-    width: 40vw;
+    width: 30vw;
+    height: 30vw;
   }
 
 }
