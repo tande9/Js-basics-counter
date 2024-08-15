@@ -30,3 +30,5 @@ Durante la creazione di questo progetto non sono mancate le difficoltà, che per
 
 ##### Visualizzazione phone 
 ![Desktop](/assets/img/screenshot-phone.png)
+
+[Provalo cliccando qui](https://javascript-counter-gianluigi-fadda.netlify.app)
